@@ -1,4 +1,4 @@
-package com.example.ockl.batteryvoltage;
+package com.github.ockl.batteryvoltage;
 
 import android.content.Intent;
 import android.os.Bundle;

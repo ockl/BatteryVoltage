@@ -3,7 +3,7 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 26
     defaultConfig {
-        applicationId "com.example.ockl.batteryvoltage"
+        applicationId "com.github.ockl.batteryvoltage"
         minSdkVersion 22
         targetSdkVersion 26
         versionCode 1

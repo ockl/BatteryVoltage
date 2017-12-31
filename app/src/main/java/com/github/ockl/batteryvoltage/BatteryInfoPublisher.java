@@ -1,4 +1,4 @@
-package com.example.ockl.batteryvoltage;
+package com.github.ockl.batteryvoltage;
 
 import android.app.Activity;
 import android.app.Application;

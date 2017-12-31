@@ -1,4 +1,4 @@
-package com.example.ockl.batteryvoltage;
+package com.github.ockl.batteryvoltage;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.example.ockl.batteryvoltage", appContext.getPackageName());
+        assertEquals("com.github.ockl.batteryvoltage", appContext.getPackageName());
     }
 }

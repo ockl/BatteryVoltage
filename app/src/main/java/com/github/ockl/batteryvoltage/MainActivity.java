@@ -1,4 +1,4 @@
-package com.example.ockl.batteryvoltage;
+package com.github.ockl.batteryvoltage;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
