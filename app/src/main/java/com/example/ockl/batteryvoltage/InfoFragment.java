@@ -86,7 +86,8 @@ public class InfoFragment extends UpdateableRecyclerViewFragment {
     @Override
     public void onResume() {
         super.onResume();
-        batteryInfoPublisher = BatteryInfoPublisher.getInstance(getContext());
+        batteryInfoPublisher = BatteryInfoPublisher.getInstance(
+                getContext().getApplicationContext());
         batteryInfoPublisher.subscribe(batteryInfoReceiver);
     }
 
