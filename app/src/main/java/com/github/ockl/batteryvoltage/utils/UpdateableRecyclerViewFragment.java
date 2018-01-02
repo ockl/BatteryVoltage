@@ -1,4 +1,4 @@
-package com.github.ockl.batteryvoltage;
+package com.github.ockl.batteryvoltage.utils;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -9,6 +9,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+
+import com.github.ockl.batteryvoltage.R;
 
 import java.util.ArrayList;
 import java.util.Arrays;

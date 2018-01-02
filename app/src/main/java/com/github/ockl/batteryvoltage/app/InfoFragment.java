@@ -1,36 +1,13 @@
-package com.github.ockl.batteryvoltage;
+package com.github.ockl.batteryvoltage.app;
 
-import android.content.BroadcastReceiver;
-import android.content.Context;
-import android.content.Intent;
-import android.content.IntentFilter;
-import android.os.BatteryManager;
 import android.os.Bundle;
-import android.os.Handler;
 import android.support.annotation.Nullable;
-import android.support.v4.app.Fragment;
-import android.support.v4.content.LocalBroadcastManager;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
-import android.widget.TextView;
-import android.widget.Toast;
 
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileReader;
-import java.io.IOException;
+import com.github.ockl.batteryvoltage.utils.UpdateableRecyclerViewFragment;
+import com.github.ockl.batteryvoltage.utils.BatteryInfoPublisher;
+
 import java.text.SimpleDateFormat;
-import java.time.LocalTime;
-import java.util.ArrayList;
 import java.util.Calendar;
-import java.util.Collection;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.LinkedHashMap;
-import java.util.Map;
 
 /**
  * Created by greg on 12/28/17.

@@ -1,18 +1,13 @@
-package com.github.ockl.batteryvoltage;
+package com.github.ockl.batteryvoltage.utils;
 
-import android.app.Activity;
-import android.app.Application;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
-import android.content.pm.PackageManager;
 import android.os.BatteryManager;
 import android.os.Handler;
 
-import java.util.Calendar;
 import java.util.HashMap;
-import java.util.HashSet;
 import java.util.Map;
 
 /**
@@ -21,7 +16,7 @@ import java.util.Map;
 
 public class BatteryInfoPublisher {
 
-    interface Receiver {
+    public interface Receiver {
         void onUpdate();
     }
 
